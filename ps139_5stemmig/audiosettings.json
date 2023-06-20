@@ -11,6 +11,32 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "metronome",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Strings",
                         "museName": "Violoncellos",
                         "museUID": "94",
@@ -31,29 +57,41 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "4"
+            "partId": "4",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Strings",
+                        "museName": "Violins 2",
+                        "museUID": "92",
+                        "playbackSetupData": "strings.violin.orchestral:secondary:section"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
+                    "id": "Muse Strings\\Violins 2\\92",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Strings"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "metronome",
+            "instrumentId": "violins",
             "out": {
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "999"
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -79,7 +117,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "5"
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -105,33 +147,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1"
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violins 2",
-                        "museUID": "92",
-                        "playbackSetupData": "strings.violin.orchestral:secondary:section"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violins 2\\92",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "Muse Strings"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violins",
-            "out": {
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2"
+            "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -157,7 +177,37 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3"
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Grand Piano",
+                        "museUID": "167",
+                        "playbackSetupData": "keyboards.piano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Grand Piano\\167",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "Muse Keys"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6"
         }
     ]
 }
